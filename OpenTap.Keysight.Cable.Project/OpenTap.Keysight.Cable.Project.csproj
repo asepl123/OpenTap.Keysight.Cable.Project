@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
@@ -14,6 +14,10 @@
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <!-- We are setting TargetFramework in debug configuration, otherwise Visual Studio tries to attach a .NET Core debugger. That will not work, because the program we open is a .NET Framework executable -->
     <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\Shiv\source\repos\Output\OpenTap.Keysight.Cable.Project\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

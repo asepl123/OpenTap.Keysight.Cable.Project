@@ -2,7 +2,7 @@
   "profiles": {
     "Editor": {
       "commandName": "Executable",
-      "executablePath": "./editor.exe"
+      "executablePath": "C:\\Users\\Shiv\\source\\repos\\Output\\OpenTap.Keysight.Cable.Project\\Editor.exe"
     }
   }
 }
